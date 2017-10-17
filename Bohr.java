@@ -6,6 +6,7 @@
 // Request types
 // '+' s - add string s to dictionary
 // '?' s - check if dictionary contains s
+// WARNING: use only uppercase latin characters in a query string
 
 import java.util.*;
 import java.io.*;
@@ -19,6 +20,7 @@ public class Bohr {
 
 	public void solve() {
 		int n = in.nextInt();
+		root = new Node();
 		for (int i = 0; i < n; i++) {
 			if (in.next().compareTo("+") == 0) {
 				add(in.next());
