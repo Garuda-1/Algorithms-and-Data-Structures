@@ -4,6 +4,7 @@
 // Input format:
 // n - array size
 // a[] - array
+// q - number of queries
 // Query types:
 // '!' i d - add d to a[i]
 // '?' l r - get sum on segment [l; r]
