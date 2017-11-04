@@ -1,3 +1,9 @@
+
+// Bruteforce Geometry
+//
+// The following code is designed to find distances between 4 types of 2D geometry objects: points, segments, rays and lines.
+// Check the specified method for solution of exact one of 16 tasks.
+
 import java.util.*;
 import java.io.*;
 
