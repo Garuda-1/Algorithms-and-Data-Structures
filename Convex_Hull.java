@@ -1,3 +1,14 @@
+
+// Convex hull searching (Graham algorithm)
+//
+// Input format:
+// n - number of points
+// 1..n: x y - point coordinates
+//
+// Output format:
+// m - number of points included in minimal convex hull
+// 1..m: x y - coordinates of chosen points
+
 import java.util.*;
 import java.io.*;
 
@@ -48,6 +59,8 @@ public class Convex_Hull {
 			}
 			res.addLast(a.get(i));
 		}
+		
+		out.println(res.size());
 		
 		while (!res.isEmpty()) {
 			Point z = res.pollLast();
