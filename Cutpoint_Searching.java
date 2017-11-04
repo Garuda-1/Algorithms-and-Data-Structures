@@ -1,5 +1,5 @@
 
-// Bridge searching
+// Cutpoint searching
 //
 // Input:
 // n - number of vertexes
