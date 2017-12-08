@@ -88,7 +88,7 @@ public class Ford_Bellman {
 					}
 				}
 				if (!f) {
-					out.println("No negatve cycle detected.");
+					out.println("No negative cycle detected.");
 				}
 			}
 		}
