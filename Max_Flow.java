@@ -57,7 +57,7 @@ public class Max_Flow {
 
 		vis.clear();
 		out.println(res);
-		// print();
+		print();
 	}
 
 	public long DFS(int x, long flow) {
