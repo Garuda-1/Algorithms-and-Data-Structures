@@ -27,8 +27,8 @@ public class Suff_Arr {
 	}
 
 	public int[] getSuffArr(String s) {
-		int n = s.length();
 		s += '$';
+		int n = s.length();
 
 		int p[] = new int[maxlen];
 		int c[] = new int[maxlen];
